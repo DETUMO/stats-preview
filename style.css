@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+*{
+   font-family: 'Inter', sans-serif;
+   font-family: 'Lexend Deca', sans-serif;
+   box-sizing: border-box;
+}
+body {
+    width: 100%;
+    background:hsl(233, 47%, 7%);
+    
+}
+
+/*.row {
+    background: hsl(244, 38%, 16%);
+    display: flex;
+    width: 60%;
+    height: 0%;
+    margin-left: 4rem;
+    margin-top: 5rem;
+}
+/*.row ::after{
+    display: block;
+    clear: both;
+}*/
+
+/*.row div {
+    float: left;
+    height: 10rem;
+    padding: rem;
+}*/
+
+/*.left-side {
+    width: 40%;
+    margin-left: 2rem;
+    margin-right: 3rem;
+}
+.right-side {
+    background-image: image();
+    padding-left: 2rem;
+    width: 40%;
+    background: hsl(277, 64%, 61%); 
+}*/
+
+.container {
+    content: "";
+    display: flex;
+    clear: both;
+    justify-content: center;
+    margin: 10rem;
+}
+
+.container > div {
+    height: 350px;
+    padding: 15px;
+    float: left;
+}
+.box1 {
+    width: 40%;
+    background: hsl(244, 38%, 16%);
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.box2 {
+    background: url(./images/image-header-desktop.jpg)no-repeat hsl(277, 64%, 61%);
+    width: 40%;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.box2 img{
+    filter: hue-rotate(250deg);
+}
+.container .small-box{
+    display: inline-block;
+}
+
+.small-box {
+    align-items: center;
+    margin-left: 2rem;
+}
+h3 {
+    color: hsl(0, 0%, 100%);
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+h1, h5 {
+    width:400px;
+    margin-left: 2rem;
+}
+h1 {
+    color: hsl(0, 0%, 100%);
+}
+h5 {
+    color:hsla(0, 0%, 100%, 0.75) ;
+}
+
+span {
+    color: hsl(277, 64%, 61%);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(229, 100%, 96%); }
+
